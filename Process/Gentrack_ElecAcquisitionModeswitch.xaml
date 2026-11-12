@@ -116,7 +116,7 @@
       <AssemblyReference>System.Linq.Async.Queryable</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Gentrack_MeterReadRemoval" sap:VirtualizedContainerService.HintSize="640.6666666666666,9882" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Gentrack_MeterReadRemoval" sap:VirtualizedContainerService.HintSize="638.6666666666666,1922.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Int32" Name="cnt">
         <Variable.Default>
@@ -136,13 +136,13 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard sap2010:Annotation.AnnotationText="- Enroling the MPXN in the Gentrack application&#xA;-&gt; Input the MPXN in the Identifier Field of Meter point tab and click on Enrol" AttachMode="ByInstance" DisplayName="Utility Warehouse Limited" HealingAgentBehavior="[UiPath.UIAutomationNext.Enums.NHealingAgentBehavior.Disabled]" sap:VirtualizedContainerService.HintSize="632,9859.333333333334" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" ScopeGuid="edb7ca0c-bc7f-4cde-8c2d-09ab87b0d4c4" Version="V2">
+    <uix:NApplicationCard sap2010:Annotation.AnnotationText="- Enroling the MPXN in the Gentrack application&#xA;-&gt; Input the MPXN in the Identifier Field of Meter point tab and click on Enrol" AttachMode="ByInstance" DisplayName="Utility Warehouse Limited" HealingAgentBehavior="[UiPath.UIAutomationNext.Enums.NHealingAgentBehavior.Disabled]" sap:VirtualizedContainerService.HintSize="488,1900" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="Simulate" ScopeGuid="edb7ca0c-bc7f-4cde-8c2d-09ab87b0d4c4" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="630,9620" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,1660.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:Boolean" Name="elemntexist" />
               <Variable x:TypeArguments="x:String" Name="date_" />
@@ -157,12 +157,12 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:UiElementExists DisplayName="Element Exists 'WindowsForms10.Window.b...'" Exists="[ElementExist]" sap:VirtualizedContainerService.HintSize="596,139.33333333333334" sap2010:WorkflowViewState.IdRef="UiElementExists_28">
+            <ui:UiElementExists DisplayName="Element Exists 'WindowsForms10.Window.b...'" Exists="[ElementExist]" sap:VirtualizedContainerService.HintSize="452,139.33333333333334" sap2010:WorkflowViewState.IdRef="UiElementExists_28">
               <ui:UiElementExists.Target>
                 <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7de70a27-f000-4fef-a8c3-8c83e5a8e70c" InformativeScreenshot="2f8c3c716047eee4c43112912e8f44f8" Selector="&lt;wnd ctrlname='MdiWrapper' /&gt;&lt;wnd ctrlname='MeterPointSearch' /&gt;&lt;wnd ctrlname='splitter' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='Panel2' /&gt;&lt;wnd ctrlname='panelControls' /&gt;&lt;wnd ctrlname='panelSearch' /&gt;&lt;wnd ctrlname='layout' /&gt;&lt;wnd ctrlname='txtIdentifier' /&gt;&lt;wnd aaname='Identifier:' cls='WindowsForms10.Edit.*' /&gt;" TimeoutMS="5000" WaitForReady="INTERACTIVE" />
               </ui:UiElementExists.Target>
             </ui:UiElementExists>
-            <If Condition="[ElementExist]" sap:VirtualizedContainerService.HintSize="596,741.3333333333334" sap2010:WorkflowViewState.IdRef="If_33">
+            <If Condition="[ElementExist]" sap:VirtualizedContainerService.HintSize="452,741.3333333333334" sap2010:WorkflowViewState.IdRef="If_33">
               <If.Then>
                 <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,90.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_96">
                   <sap:WorkflowViewStateService.ViewState>
@@ -437,7 +437,7 @@
                 </Sequence>
               </If.Else>
             </If>
-            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="596,57.333333333333336" sap2010:WorkflowViewState.IdRef="CommentOut_4">
+            <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="452,57.333333333333336" sap2010:WorkflowViewState.IdRef="CommentOut_4">
               <ui:CommentOut.Body>
                 <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="449.6,108" sap2010:WorkflowViewState.IdRef="Sequence_99">
                   <sap:WorkflowViewStateService.ViewState>
@@ -481,7 +481,7 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </ui:CommentOut>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Identifier'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="596,248" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="Simulate" ScopeIdentifier="edb7ca0c-bc7f-4cde-8c2d-09ab87b0d4c4" Text="[in_MeterPoint]" Version="V5">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Identifier'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,248" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="Simulate" ScopeIdentifier="edb7ca0c-bc7f-4cde-8c2d-09ab87b0d4c4" Text="[in_MeterPoint]" Version="V5">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable ContentHash="EJ0ok_yHu0K6jo3rk7umwA" DesignTimeRectangle="388, 288, 339, 18" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlname='MeterPointSearch' /&gt;&lt;wnd ctrlname='splitter' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='Panel2' /&gt;&lt;wnd ctrlname='panelControls' /&gt;&lt;wnd ctrlname='panelSearch' /&gt;&lt;wnd ctrlname='layout' /&gt;&lt;wnd ctrlname='txtIdentifier' /&gt;&lt;wnd aaname='Identifier:' cls='WindowsForms10.Edit.*' /&gt;" Guid="13ee7380-4904-4926-88a5-f9905be37d43" InformativeScreenshot="618fcbf191288f2269724f596266640a.jpg" Reference="oEiCoswlukC6YZWHqUSbyA/P-Hxe5YUeEuO6JhIqhcr9Q" ScopeSelectorArgument="&lt;wnd app='junifer.thor.client.exe' ctrlname='MainForm' /&gt;&lt;wnd ctrlname='MdiWrapper' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NTypeInto.Target>
@@ -496,19 +496,19 @@
                 </uix:VerifyExecutionTypeIntoOptions>
               </uix:NTypeInto.VerifyOptions>
             </uix:NTypeInto>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Search(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="596,195.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_96" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="edb7ca0c-bc7f-4cde-8c2d-09ab87b0d4c4" Version="V5">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Search(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,195.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_96" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="edb7ca0c-bc7f-4cde-8c2d-09ab87b0d4c4" Version="V5">
               <uix:NClick.Target>
                 <uix:TargetAnchorable ContentHash="cVMRFinPlke_y42rvyAE1A" DesignTimeRectangle="238, 233, 130, 28" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlname='MeterPointSearch' /&gt;&lt;wnd ctrlname='splitter' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='Panel2' /&gt;&lt;wnd ctrlname='panelActions' /&gt;&lt;wnd ctrlname='layoutAction' /&gt;&lt;wnd ctrlname='btnSearch' /&gt;" Guid="1a42ae4b-a5bb-478a-8ce2-6ef17c4eb362" InformativeScreenshot="1d97a0552ed2e07f440312d7098f6c70.jpg" Reference="oEiCoswlukC6YZWHqUSbyA/UWOCKGcEBU68GahHmOLkBw" ScopeSelectorArgument="&lt;wnd app='junifer.thor.client.exe' ctrlname='MainForm' /&gt;&lt;wnd ctrlname='MdiWrapper' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
               </uix:NClick.Target>
             </uix:NClick>
-            <ui:UiElementExists DisplayName="Element Exists 'cell  Identifier row 1'" Exists="[ElementExist]" sap:VirtualizedContainerService.HintSize="596,139.33333333333334" sap2010:WorkflowViewState.IdRef="UiElementExists_33">
+            <ui:UiElementExists DisplayName="Element Exists 'cell  Identifier row 1'" Exists="[ElementExist]" sap:VirtualizedContainerService.HintSize="452,139.33333333333334" sap2010:WorkflowViewState.IdRef="UiElementExists_33">
               <ui:UiElementExists.Target>
                 <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="0b33d1c7-970f-4883-854c-c6adb842a952" InformativeScreenshot="5fd0ab6689d2eedb1ab2b2f99624df78" Selector="&lt;wnd ctrlname='MdiWrapper' /&gt;&lt;wnd ctrlname='MeterPointSearch' /&gt;&lt;wnd ctrlname='splitter' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='Panel2' /&gt;&lt;wnd ctrlname='grid' /&gt;&lt;ctrl name='MainView' role='table' /&gt;&lt;ctrl name='Row 1' role='list item' /&gt;&lt;ctrl name='Identifier row 1' role='cell' /&gt;" TimeoutMS="5000" WaitForReady="INTERACTIVE" />
               </ui:UiElementExists.Target>
             </ui:UiElementExists>
-            <If Condition="[ElementExist]" DisplayName="If record found" sap:VirtualizedContainerService.HintSize="596,8039.333333333333" sap2010:WorkflowViewState.IdRef="If_40">
+            <If Condition="[ElementExist]" DisplayName="If record found" sap:VirtualizedContainerService.HintSize="596,8204.666666666666" sap2010:WorkflowViewState.IdRef="If_40">
               <If.Then>
-                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="594,7538.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_118">
+                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="594,7726.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_118">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -591,7 +591,11 @@
                   </uix:NClick>
                   <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Create new PAN'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="560,195.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_108" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="edb7ca0c-bc7f-4cde-8c2d-09ab87b0d4c4" Version="V5">
                     <uix:NClick.Target>
-                      <uix:TargetAnchorable ContentHash="3UMwcfmQ00aVZqvFKOYhJw" DesignTimeRectangle="3, 3, 212, 36" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;" Guid="225798bb-8ce1-4c52-88ab-9ce566869278" InformativeScreenshot="f6ab0eac0a64691206f27e4acc83d4da.jpg" Reference="oEiCoswlukC6YZWHqUSbyA/Wxy8EmoM8U-B_Rh-MyZPyA" ScopeSelectorArgument="&lt;wnd app='junifer.thor.client.exe' cls='WindowsForms10.Window.*' idx='*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                      <uix:TargetAnchorable ContentHash="DNF8pS06BU-DHIUngwK-Ag" DesignTimeRectangle="2, 2, 209, 36" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Create new PAN' role='push button' /&gt;" Guid="c8cdef34-add8-453f-b44d-de556a9b7ad7" InformativeScreenshot="fa92b2c62a3a1badd434b4767e457b2c.jpg" Reference="oEiCoswlukC6YZWHqUSbyA/Wxy8EmoM8U-B_Rh-MyZPyA" ScopeSelectorArgument="&lt;wnd app='junifer.thor.client.exe' cls='WindowsForms10.Window.*' idx='*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable.PointOffset>
+                          <uix:PointOffset Position="TopLeft" X="33" Y="6" />
+                        </uix:TargetAnchorable.PointOffset>
+                      </uix:TargetAnchorable>
                     </uix:NClick.Target>
                   </uix:NClick>
                   <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '&amp;Yes(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="560,195.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_109" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="edb7ca0c-bc7f-4cde-8c2d-09ab87b0d4c4" Version="V5">
@@ -684,13 +688,13 @@
                       <OutArgument x:TypeArguments="x:String">[Temp]</OutArgument>
                     </ui:GetValue.Value>
                   </ui:GetValue>
-                  <ui:ForEach x:TypeArguments="x:Int32" CurrentIndex="{x:Null}" DisplayName="For Each currentNumber" sap:VirtualizedContainerService.HintSize="560,2753.3333333333335" sap2010:WorkflowViewState.IdRef="ForEach`1_2" Values="[Enumerable.Range(1,10)]">
+                  <ui:ForEach x:TypeArguments="x:Int32" CurrentIndex="{x:Null}" DisplayName="For Each currentNumber" sap:VirtualizedContainerService.HintSize="560,3023.3333333333335" sap2010:WorkflowViewState.IdRef="ForEach`1_2" Values="[Enumerable.Range(1,1)]">
                     <ui:ForEach.Body>
                       <ActivityAction x:TypeArguments="x:Int32">
                         <ActivityAction.Argument>
                           <DelegateInArgument x:TypeArguments="x:Int32" Name="currentNumber" />
                         </ActivityAction.Argument>
-                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="558,2621.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_124">
+                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="558,2891.3333333333335" sap2010:WorkflowViewState.IdRef="Sequence_124">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -748,7 +752,7 @@
                               </Sequence>
                             </TryCatch.Finally>
                           </TryCatch>
-                          <If Condition="[Temp.ToLower.Contains(&quot;sup&quot;) OR Temp.ToLower.Contains(&quot;dcc&quot;)]" sap:VirtualizedContainerService.HintSize="524,1715.3333333333333" sap2010:WorkflowViewState.IdRef="If_43">
+                          <If Condition="[Temp.ToLower.Contains(&quot;sup&quot;) OR Temp.ToLower.Contains(&quot;dcc&quot;)]" sap:VirtualizedContainerService.HintSize="524,1985.3333333333333" sap2010:WorkflowViewState.IdRef="If_43">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -756,13 +760,14 @@
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                             <If.Then>
-                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="522,1484.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_128">
+                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="522,1754.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_128">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="488,1424.6666666666667" sap2010:WorkflowViewState.IdRef="TryCatch_2">
+                                <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="488,1694.6666666666667" sap2010:WorkflowViewState.IdRef="TryCatch_2">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -770,7 +775,7 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                   <TryCatch.Try>
-                                    <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="486,1078.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_125">
+                                    <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="486,1348.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_125">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -799,7 +804,7 @@
                                           <OutArgument x:TypeArguments="x:String">[Temp]</OutArgument>
                                         </ui:GetValue.Value>
                                       </ui:GetValue>
-                                      <If Condition="[Not Temp.Trim.ToLower.Replace(&quot; &quot;,&quot;&quot;) = &quot;smartpayg&quot;]" sap:VirtualizedContainerService.HintSize="452,610" sap2010:WorkflowViewState.IdRef="If_42">
+                                      <If Condition="[Not Temp.Trim.ToLower.Replace(&quot; &quot;,&quot;&quot;) = &quot;smartpayg&quot;]" sap:VirtualizedContainerService.HintSize="452,765.3333333333334" sap2010:WorkflowViewState.IdRef="If_42">
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -811,6 +816,7 @@
                                             <sap:WorkflowViewStateService.ViewState>
                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
                                             <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'WindowsForms10.Window.b...'" sap:VirtualizedContainerService.HintSize="416,189.33333333333334" sap2010:WorkflowViewState.IdRef="TypeInto_1" Text="smartpayg">
@@ -840,16 +846,53 @@
                                           </Sequence>
                                         </If.Then>
                                         <If.Else>
-                                          <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,90.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_123">
+                                          <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,246" sap2010:WorkflowViewState.IdRef="Sequence_123">
                                             <sap:WorkflowViewStateService.ViewState>
                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
+                                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Cancel(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,186" sap2010:WorkflowViewState.IdRef="NClick_115" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="edb7ca0c-bc7f-4cde-8c2d-09ab87b0d4c4" Version="V5">
+                                              <uix:NClick.Target>
+                                                <uix:TargetAnchorable ContentHash="HarrA12-LUWiRzkrr3DO8A" DesignTimeRectangle="1150, 929, 113, 33" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlname='panelButtons' /&gt;&lt;wnd ctrlname='btnCancel' /&gt;" Guid="c833d849-7e1a-441d-86dd-07fb0ce41069" InformativeScreenshot="ab8f1b8d6850d365249f088d797d6516.jpg" Reference="oEiCoswlukC6YZWHqUSbyA/UCdPbbe9jUqRTQYrxE7Uow" ScopeSelectorArgument="&lt;wnd app='junifer.thor.client.exe' ctrlname='NonMdiWrapper' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                                              </uix:NClick.Target>
+                                            </uix:NClick>
                                           </Sequence>
                                         </If.Else>
                                       </If>
-                                      <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'WindowsForms10.Window.b...'" sap:VirtualizedContainerService.HintSize="452,130" sap2010:WorkflowViewState.IdRef="Click_14" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
+                                      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="452,57.333333333333336" sap2010:WorkflowViewState.IdRef="CommentOut_5">
+                                        <ui:CommentOut.Body>
+                                          <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,190" sap2010:WorkflowViewState.IdRef="Sequence_136">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" ContinueOnError="True" DisplayName="Click 'Button'" sap:VirtualizedContainerService.HintSize="416,130" sap2010:WorkflowViewState.IdRef="Click_20" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
+                                              <ui:Click.CursorPosition>
+                                                <ui:CursorPosition Position="Center">
+                                                  <ui:CursorPosition.OffsetX>
+                                                    <InArgument x:TypeArguments="x:Int32" />
+                                                  </ui:CursorPosition.OffsetX>
+                                                  <ui:CursorPosition.OffsetY>
+                                                    <InArgument x:TypeArguments="x:Int32" />
+                                                  </ui:CursorPosition.OffsetY>
+                                                </ui:CursorPosition>
+                                              </ui:Click.CursorPosition>
+                                              <ui:Click.Target>
+                                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="45651d9e-8e59-463f-8e50-64e78e982f42" InformativeScreenshot="99d13c83883702c985d4919ed9b36e78" Selector="&lt;wnd app='junifer.thor.client.exe' cls='#32770' title='Warning' /&gt;&lt;wnd ctrlid='2' title='OK' /&gt;" TimeoutMS="5000" WaitForReady="INTERACTIVE" />
+                                              </ui:Click.Target>
+                                            </ui:Click>
+                                          </Sequence>
+                                        </ui:CommentOut.Body>
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                      </ui:CommentOut>
+                                      <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'WindowsForms10.Window.b...'" sap:VirtualizedContainerService.HintSize="452,139.33333333333334" sap2010:WorkflowViewState.IdRef="Click_14" KeyModifiers="None" MouseButton="BTN_LEFT">
                                         <ui:Click.CursorPosition>
                                           <ui:CursorPosition Position="Center">
                                             <ui:CursorPosition.OffsetX>
@@ -868,6 +911,103 @@
                                           </ui:Target>
                                         </ui:Click.Target>
                                       </ui:Click>
+                                      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="452,48" sap2010:WorkflowViewState.IdRef="CommentOut_6">
+                                        <ui:CommentOut.Body>
+                                          <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,247.33333333333334" sap2010:WorkflowViewState.IdRef="Sequence_137">
+                                            <sap:WorkflowViewStateService.ViewState>
+                                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                              </scg:Dictionary>
+                                            </sap:WorkflowViewStateService.ViewState>
+                                            <ui:UiElementExists DisplayName="Element Exists 'Static'" Exists="[ElementExist]" sap:VirtualizedContainerService.HintSize="416,139.33333333333334" sap2010:WorkflowViewState.IdRef="UiElementExists_37">
+                                              <ui:UiElementExists.Target>
+                                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="52948f54-6c0e-42ba-8ccb-e6e9fd141dc8" InformativeScreenshot="5cafbe30a215c9b62b3c6d31c64bba0e" Selector="&lt;wnd app='junifer.thor.client.exe' title='Warning' /&gt;&lt;wnd title='The selected Meter Service agent does not have a contract for th*' /&gt;">
+                                                  <ui:Target.TimeoutMS>
+                                                    <InArgument x:TypeArguments="x:Int32" />
+                                                  </ui:Target.TimeoutMS>
+                                                  <ui:Target.WaitForReady>
+                                                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                                                  </ui:Target.WaitForReady>
+                                                </ui:Target>
+                                              </ui:UiElementExists.Target>
+                                            </ui:UiElementExists>
+                                            <If Condition="[ElementExist]" sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="If_45">
+                                              <sap:WorkflowViewStateService.ViewState>
+                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                </scg:Dictionary>
+                                              </sap:WorkflowViewStateService.ViewState>
+                                              <If.Then>
+                                                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,329.3333333333333" sap2010:WorkflowViewState.IdRef="Sequence_134">
+                                                  <sap:WorkflowViewStateService.ViewState>
+                                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                    </scg:Dictionary>
+                                                  </sap:WorkflowViewStateService.ViewState>
+                                                  <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'Button'" sap:VirtualizedContainerService.HintSize="416,139.33333333333334" sap2010:WorkflowViewState.IdRef="Click_18" KeyModifiers="None" MouseButton="BTN_LEFT">
+                                                    <ui:Click.CursorPosition>
+                                                      <ui:CursorPosition Position="Center">
+                                                        <ui:CursorPosition.OffsetX>
+                                                          <InArgument x:TypeArguments="x:Int32" />
+                                                        </ui:CursorPosition.OffsetX>
+                                                        <ui:CursorPosition.OffsetY>
+                                                          <InArgument x:TypeArguments="x:Int32" />
+                                                        </ui:CursorPosition.OffsetY>
+                                                      </ui:CursorPosition>
+                                                    </ui:Click.CursorPosition>
+                                                    <ui:Click.Target>
+                                                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a2fa330c-969b-440d-9c53-98538191d5e5" InformativeScreenshot="8806104757f5db6a3a485ef42ba2bdb9" Selector="&lt;wnd app='junifer.thor.client.exe' cls='#32770' title='Warning' /&gt;&lt;wnd ctrlid='6' title='&amp;amp;Yes' /&gt;">
+                                                        <ui:Target.TimeoutMS>
+                                                          <InArgument x:TypeArguments="x:Int32" />
+                                                        </ui:Target.TimeoutMS>
+                                                        <ui:Target.WaitForReady>
+                                                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                                                        </ui:Target.WaitForReady>
+                                                      </ui:Target>
+                                                    </ui:Click.Target>
+                                                  </ui:Click>
+                                                  <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" ContinueOnError="True" DisplayName="Click 'Button'" sap:VirtualizedContainerService.HintSize="416,130" sap2010:WorkflowViewState.IdRef="Click_21" KeyModifiers="None" MouseButton="BTN_LEFT">
+                                                    <ui:Click.CursorPosition>
+                                                      <ui:CursorPosition Position="Center">
+                                                        <ui:CursorPosition.OffsetX>
+                                                          <InArgument x:TypeArguments="x:Int32" />
+                                                        </ui:CursorPosition.OffsetX>
+                                                        <ui:CursorPosition.OffsetY>
+                                                          <InArgument x:TypeArguments="x:Int32" />
+                                                        </ui:CursorPosition.OffsetY>
+                                                      </ui:CursorPosition>
+                                                    </ui:Click.CursorPosition>
+                                                    <ui:Click.Target>
+                                                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a2fa330c-969b-440d-9c53-98538191d5e5" InformativeScreenshot="c004eb189d3fc13634d256022b1cd5a7" Selector="&lt;wnd app='junifer.thor.client.exe' cls='#32770' title='Warning' /&gt;&lt;wnd ctrlid='6' title='&amp;amp;Yes' /&gt;" TimeoutMS="5000">
+                                                        <ui:Target.WaitForReady>
+                                                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                                                        </ui:Target.WaitForReady>
+                                                      </ui:Target>
+                                                    </ui:Click.Target>
+                                                  </ui:Click>
+                                                </Sequence>
+                                              </If.Then>
+                                              <If.Else>
+                                                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,90.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_135">
+                                                  <sap:WorkflowViewStateService.ViewState>
+                                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                    </scg:Dictionary>
+                                                  </sap:WorkflowViewStateService.ViewState>
+                                                </Sequence>
+                                              </If.Else>
+                                            </If>
+                                          </Sequence>
+                                        </ui:CommentOut.Body>
+                                        <sap:WorkflowViewStateService.ViewState>
+                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                          </scg:Dictionary>
+                                        </sap:WorkflowViewStateService.ViewState>
+                                      </ui:CommentOut>
                                     </Sequence>
                                   </TryCatch.Try>
                                   <TryCatch.Catches>
@@ -926,25 +1066,42 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </ui:ForEach>
-                  <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'WindowsForms10.Window.b...'" sap:VirtualizedContainerService.HintSize="560,139.33333333333334" sap2010:WorkflowViewState.IdRef="Click_16" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
-                    <ui:Click.CursorPosition>
-                      <ui:CursorPosition Position="Center">
-                        <ui:CursorPosition.OffsetX>
-                          <InArgument x:TypeArguments="x:Int32" />
-                        </ui:CursorPosition.OffsetX>
-                        <ui:CursorPosition.OffsetY>
-                          <InArgument x:TypeArguments="x:Int32" />
-                        </ui:CursorPosition.OffsetY>
-                      </ui:CursorPosition>
-                    </ui:Click.CursorPosition>
-                    <ui:Click.Target>
-                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="e28c020d-70d6-4bc3-89f7-ce7fe5d118ed" InformativeScreenshot="f5fdcc58a0a08336bf1f5bb391ee9c94" Selector="&lt;wnd app='junifer.thor.client.exe' ctrlname='NonMdiWrapper' /&gt;&lt;wnd ctrlname='panelButtons' /&gt;&lt;wnd ctrlname='btnAccept' /&gt;" WaitForReady="INTERACTIVE">
-                        <ui:Target.TimeoutMS>
-                          <InArgument x:TypeArguments="x:Int32" />
-                        </ui:Target.TimeoutMS>
-                      </ui:Target>
-                    </ui:Click.Target>
-                  </ui:Click>
+                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="560,57.333333333333336" sap2010:WorkflowViewState.IdRef="CommentOut_7">
+                    <ui:CommentOut.Body>
+                      <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,190" sap2010:WorkflowViewState.IdRef="Sequence_138">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'WindowsForms10.Window.b...'" sap:VirtualizedContainerService.HintSize="416,130" sap2010:WorkflowViewState.IdRef="Click_16" KeyModifiers="None" MouseButton="BTN_LEFT" SimulateClick="True">
+                          <ui:Click.CursorPosition>
+                            <ui:CursorPosition Position="Center">
+                              <ui:CursorPosition.OffsetX>
+                                <InArgument x:TypeArguments="x:Int32" />
+                              </ui:CursorPosition.OffsetX>
+                              <ui:CursorPosition.OffsetY>
+                                <InArgument x:TypeArguments="x:Int32" />
+                              </ui:CursorPosition.OffsetY>
+                            </ui:CursorPosition>
+                          </ui:Click.CursorPosition>
+                          <ui:Click.Target>
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="e28c020d-70d6-4bc3-89f7-ce7fe5d118ed" InformativeScreenshot="f5fdcc58a0a08336bf1f5bb391ee9c94" Selector="&lt;wnd app='junifer.thor.client.exe' ctrlname='NonMdiWrapper' /&gt;&lt;wnd ctrlname='panelButtons' /&gt;&lt;wnd ctrlname='btnAccept' /&gt;" WaitForReady="INTERACTIVE">
+                              <ui:Target.TimeoutMS>
+                                <InArgument x:TypeArguments="x:Int32" />
+                              </ui:Target.TimeoutMS>
+                            </ui:Target>
+                          </ui:Click.Target>
+                        </ui:Click>
+                      </Sequence>
+                    </ui:CommentOut.Body>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </ui:CommentOut>
                   <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Clear(2)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="560,195.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_102" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="edb7ca0c-bc7f-4cde-8c2d-09ab87b0d4c4" Version="V5">
                     <uix:NClick.Target>
                       <uix:TargetAnchorable ContentHash="6FSKK-WgsUeZHNbqx-ShoQ" DesignTimeRectangle="375, 233, 80, 28" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlname='MeterPointSearch' /&gt;&lt;wnd ctrlname='splitter' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='Panel2' /&gt;&lt;wnd ctrlname='panelActions' /&gt;&lt;wnd ctrlname='layoutAction' /&gt;&lt;wnd ctrlname='btnClear' /&gt;" Guid="eaa2e589-a2e1-47c6-a960-3e267680e504" InformativeScreenshot="f4b28f576c31aa58e7b291718d8fabea.jpg" Reference="oEiCoswlukC6YZWHqUSbyA/gHRryGr65EG7MW9SjzIe4A" ScopeSelectorArgument="&lt;wnd app='junifer.thor.client.exe' ctrlname='MainForm' /&gt;&lt;wnd ctrlname='MdiWrapper' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />

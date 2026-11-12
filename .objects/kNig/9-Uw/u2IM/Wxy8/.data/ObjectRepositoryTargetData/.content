@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="3UMwcfmQ00aVZqvFKOYhJw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="DNF8pS06BU-DHIUngwK-Ag" Reference="oEiCoswlukC6YZWHqUSbyA/Wxy8EmoM8U-B_Rh-MyZPyA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="3, 3, 212, 36" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd cls='WindowsForms10.Window.*' /&gt;" Guid="225798bb-8ce1-4c52-88ab-9ce566869278" ScopeSelectorArgument="&lt;wnd app='junifer.thor.client.exe' cls='WindowsForms10.Window.*' idx='*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="f6ab0eac0a64691206f27e4acc83d4da.jpg" xmlns="">0w8ysfWsiXEai4rJzlYHJPQ</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="2, 2, 209, 36" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;ctrl name='Create new PAN' role='push button' /&gt;" Guid="c8cdef34-add8-453f-b44d-de556a9b7ad7" ScopeSelectorArgument="&lt;wnd app='junifer.thor.client.exe' cls='WindowsForms10.Window.*' idx='*' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="TopLeft" X="33" Y="6" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="fa92b2c62a3a1badd434b4767e457b2c.jpg" xmlns="">0Q9uOa82A9kWlNcvgdNVKkg</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>
